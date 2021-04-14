@@ -12,69 +12,71 @@
         <div id="heading">
             CALCULATOR
         </div>
-        <input type="text" id="input"> 
-    
-        <div id="clear">
+        <div id="display">
+            
+        </div>
+        <button id="clear" data-value="clear">
             AC
-        </div>
-        <div id="sign"> 
+        </button>
+        <button id="sign" data-value="sign"> 
             +/-
-        </div>
-        <div>
+        </button>
+        <button id="percent" data-value="%">
             %
-        </div>
-        <div id="color-red">
+        </button>
+        <button id="divide" class="color-red" data-value="/">
             /
-        </div>
+        </button>
          <!-- second row -->
-        <div id="clear">
+        <button id="seven" data-value="7">
             7
-        </div>
-        <div id="sign"> 
+        </button>
+        <button id="eight" data-value="8"> 
             8
-        </div>
-        <div>
+        </button>
+        <button id="nine" data-value="9">
             9
-        </div>
-        <div id="color-red">
+        </button>
+        <button class="color-red" data-value="*">
             *
-        </div>
+        </button>
         <!-- Third row -->
-        <div id="clear">
+        <button id="four" data-value="4">
             4
-        </div>
-        <div id="sign"> 
+        </button>
+        <button id="five" data-value="5"> 
             5
-        </div>
-        <div>
+        </button>
+        <button id="six" data-value="6">
             6
-        </div>
-        <div id="color-red">
+        </button>
+        <button class="color-red" id="minus" data-value="-">
             -
-        </div>
+        </button>
         <!-- Fourth row -->
-        <div id="clear">
+        <button type="button" data-value="1">
             1
-        </div>
-        <div id="sign"> 
+        </button>
+        <button id="sign" data-value="2"> 
             2
-        </div>
-        <div>
+        </button>
+        <button data-value="3">
             3
-        </div>
-        <div id="color-red">
+        </button>
+        <button class="color-red" data-value="+">
             +
-        </div>
+        </button>
         <!-- Fourth row -->
-        <div id="zero">
+        <button id="zero" data-value="0">
             0
-        </div>
-        <div>
+        </button>
+        <button data-value=".">
             .
-        </div>
-        <div id="color-red">
+        </button>
+        <button class="color-red" data-value="=">
             =
-        </div>
+        </button>
     </div>
+    <script type="text/javascript" src="logic.js"></script>
 </body>
 </html>
