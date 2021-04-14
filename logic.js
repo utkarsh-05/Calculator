@@ -52,28 +52,28 @@ for( var i=0; i<buttons.length; i++)
           operand2 = display.innerText;
           if(operator=='+')
           {
-            display.innerText= parseInt(operand1) + parseInt(operand2);
+            display.innerText= parseFloat(operand1) + parseFloat(operand2);
             operand1= operand2;
             operand2=null;
             operator=null;
           }
           else if(operator=='-')
           {
-            display.innerText= parseInt(operand1) - parseInt(operand2);
+            display.innerText= parseFloat(operand1) - parseFloat(operand2);
             operand1= operand2;
             operand2=null;
             operator=null;
           }
           else if(operator=='*')
           {     
-            display.innerText= parseInt(operand1) * parseInt(operand2);
+            display.innerText= parseFloat(operand1) * parseFloat(operand2);
             operand1= operand2;
             operand2=null;
             operator=null;
           }
           else if(operator=='/')
           {
-            display.innerText = parseInt(operand1) / parseInt(operand2);
+            display.innerText = parseFloat(operand1) / parseFloat(operand2);
             operand1=operand2;
             operator=null;
             operand2=null;
